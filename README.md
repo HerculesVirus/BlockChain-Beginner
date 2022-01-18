@@ -1,4 +1,4 @@
-# BlockChain-Beginner
+# BlockChain-Beginner (Ethereum only)
 **What is Blockchain?**
 
 A blockchain is a distributed database that is shared among the nodes of a computer network. As a database, a blockchain stores information electronically in digital format.
@@ -40,3 +40,6 @@ These are Quick Blogs Which Might give a Quick Review
     
     https://www.coinclarified.com/p/3-ways-to-subscribe-to-events-with-web3-js/
 
+5-Learn About ERC-721 which is Standard Non-Fungible owner Token 
+
+    Docs : https://docs.openzeppelin.com/contracts/2.x/api/token/erc721
