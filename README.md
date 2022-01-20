@@ -92,7 +92,6 @@ $ truffle migrate
 $ truffle console
 $ truffle migrate --reset
 $ truffle develop
-
 ```
 ### For Running Test Cases on Truffle:
 
