@@ -46,4 +46,6 @@ These are Quick Blogs Which Might give a Quick Review
 
     Docs : https://docs.openzeppelin.com/contracts/2.x/api/token/erc721
 
-#Centralize a decentralize app
+### Centralize a decentralize app
+
+![This is an image](https://miro.medium.com/max/1400/0*dkCGNwiWno-IUKSh)
