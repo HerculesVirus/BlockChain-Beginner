@@ -91,6 +91,7 @@ $ truffle compile
 $ truffle migrate
 $ truffle console
 $ truffle migrate --reset
+$ truffle develop
 
 ```
 
