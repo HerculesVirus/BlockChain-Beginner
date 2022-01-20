@@ -55,7 +55,8 @@ Like we’ve just seen, the end users will need Metamask to perform writing acti
 So one solution is to centralize a decentralized application (crazy talk, I know) that will read and save your smart contract data into a database. You’ll get the data (slowly) from the blockchain to serve it (quickly) to your users through your scaled API.
 
 The benefits of using a Smart contracts is that it can emit event, like: emit Pokemon Transfer({ from: 0XO67465, to: 0x43546}) or emit Pokemon Birth({name: Nidoran }).
-So when you receive a Birth event (means someone called the createPokemon() function), you can add a new Pokemon to your database to better serve your users.
+
+So when you receive a `Birth` event (means someone called the createPokemon() function), you can add a new Pokemon to your database to better serve your users.
 And when you receive a Transfert event, (means someone called the buy() function) you can update the owner of the given Pokemon in your database. And you can listen to this events with web3.js !
 
 
