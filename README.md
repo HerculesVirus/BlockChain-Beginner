@@ -48,4 +48,6 @@ These are Quick Blogs Which Might give a Quick Review
 
 ### Centralize a decentralize app
 
+@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+
 ![This is an image](https://miro.medium.com/max/1400/0*dkCGNwiWno-IUKSh)
