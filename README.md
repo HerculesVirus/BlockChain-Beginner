@@ -50,4 +50,12 @@ These are Quick Blogs Which Might give a Quick Review
 
 @octocat :+1: This PR looks great - it's ready to merge! :shipit:
 
-![This is an image](https://miro.medium.com/max/1400/0*dkCGNwiWno-IUKSh)
+![Server Architecture](https://user-images.githubusercontent.com/31464210/150289551-b6f2e60d-81b3-4b26-babf-62b045b3e37a.png)
+
+### Server Architecture
+
+
+![another](https://user-images.githubusercontent.com/31464210/150289482-e8bf737a-0b3f-4dcf-8ec7-88774c82c861.png)
+
+
+
