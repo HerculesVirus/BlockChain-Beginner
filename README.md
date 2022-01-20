@@ -81,7 +81,7 @@ The blockchain is slow and you can’t ask your front-end app to fetch and cook 
 
 Metamask is mandatory and it can be scary for your users. Make sure to provide a good user experience and introduce Metamask usages to your users.
 
-## Commands for each new Project
+## Commands for each new Dapp Project
 
 ```
 $ npm i truffle
