@@ -31,6 +31,8 @@ These are Quick Blogs Which Might give a Quick Review
     https://www.geeksforgeeks.org/deploying-smart-contract-on-test-main-network-using-truffle/amp/
     
     https://itnext.io/deploying-smart-contracts-to-binance-smart-chain-with-truffle-c57a7d1eb6ed
+#Centralize a decentralize app
+
   
 4- Learn About the Event in a Smart Contract contain of and there working.
   
