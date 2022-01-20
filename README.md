@@ -54,18 +54,27 @@ Like we’ve just seen, the end users will need Metamask to perform writing acti
 
 So one solution is to centralize a decentralized application (crazy talk, I know) that will read and save your smart contract data into a database. You’ll get the data (slowly) from the blockchain to serve it (quickly) to your users through your scaled API.
 
-The benefits of using a Smart contracts is that it can emit event, like: emit Pokemon Transfer({ from: 0XO67465, to: 0x43546}) or emit Pokemon Birth({name: Nidoran }).
+The benefits of using a Smart contracts is that it can emit event, like: `emit Pokemon Transfer({ from: 0XO67465, to: 0x43546})` or `emit Pokemon Birth({name: Nidoran })`.
 
-So when you receive a `Birth` event (means someone called the createPokemon() function), you can add a new Pokemon to your database to better serve your users.
-And when you receive a Transfert event, (means someone called the buy() function) you can update the owner of the given Pokemon in your database. And you can listen to this events with web3.js !
+So when you receive a `Birth` event (means someone called the `createPokemon()` function), you can add a new Pokemon to your database to better serve your users.
+
+And when you receive a `Transfert` event, (means someone called the `buy()` function) you can update the owner of the given Pokemon in your database. And you can listen to this events with web3.js !
 
 
-![Server Architecture](https://user-images.githubusercontent.com/31464210/150289551-b6f2e60d-81b3-4b26-babf-62b045b3e37a.png)
+![GitHub Light](https://user-images.githubusercontent.com/31464210/150289551-b6f2e60d-81b3-4b26-babf-62b045b3e37a.png)
 
 ### Server Architecture
 
 
 ![another](https://user-images.githubusercontent.com/31464210/150289482-e8bf737a-0b3f-4dcf-8ec7-88774c82c861.png)
+
+### Conclusion
+
+If you want to create a crypto collectible market place on Ethereum you need to know that:
+
+The blockchain is slow and you can’t ask your front-end app to fetch and cook the data for every single request. One solution is to create an event processor to listen to your smart contract events and populate data into a database that would be a mirror of the blockchain. You’ll then be able to serve the data through an API.
+
+Metamask is mandatory and it can be scary for your users. Make sure to provide a good user experience and introduce Metamask usages to your users.
 
 
 
