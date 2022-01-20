@@ -66,7 +66,7 @@ And when you receive a `Transfert` event, (means someone called the `buy()` func
 ### Server Architecture
 
 
-![another](https://user-images.githubusercontent.com/31464210/150289482-e8bf737a-0b3f-4dcf-8ec7-88774c82c861.png)
+![another](https://github.com/github-dark.png#gh-light-mode-only/user-images.githubusercontent.com/31464210/150289482-e8bf737a-0b3f-4dcf-8ec7-88774c82c861.png)
 
 ### Conclusion
 
