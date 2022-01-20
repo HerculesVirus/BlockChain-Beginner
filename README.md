@@ -46,9 +46,9 @@ These are Quick Blogs Which Might give a Quick Review
 
     Docs : https://docs.openzeppelin.com/contracts/2.x/api/token/erc721
 
-### Centralize a decentralize app
+## Centralize a decentralize app
 
-<!--@octocat :+1: This PR looks great - it's ready to merge! :shipit:-->
+@octocat :+1: This is looks great - it's ready to merge! :shipit:-->
 
 Like we’ve just seen, the end users will need Metamask to perform writing actions on the blockchain but reading is free.
 
@@ -73,7 +73,7 @@ Now that you centralized your application, you can serve your dapp data to your 
 
 ![another](https://user-images.githubusercontent.com/31464210/150289482-e8bf737a-0b3f-4dcf-8ec7-88774c82c861.png)
 
-### Conclusion
+## Conclusion
 
 If you want to create a crypto collectible market place on Ethereum you need to know that:
 
