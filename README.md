@@ -9,17 +9,17 @@ Blogs -Which gave you a Quick Review:
     https://www.ibm.com/ae-en/topics/what-is-blockchain
     https://www.euromoney.com/learning/blockchain-explained/what-is-  blockchain#:~:text=Blockchain%20is%20a%20system%20of,hack%2C%20or%20cheat%20the%20system.&text=Each%20block%20in%20the%20chain,added%20to%20every%20participant's%20ledger.
 
-2-Step to Build Some Dapp Like ToDoApp on Private Ganache
+## Step to Build Some Dapp Like ToDoApp on Private Ganache BlockChain
     
     DBlock_Apps : https://github.com/HerculesVirus/BlockChain_Todo_app
   
-  Blogs -Which gave you a Quick Review:
+  Blogs -Which gave you a Quick Guide to make your first Dapp:
   
     https://www.dappuniversity.com/articles/ethereum-dapp-react-tutorial
     
     https://www.dappuniversity.com/articles/blockchain-app-tutorial
 
-3-Step to Learn How Live Blockchain Like BSC,Ropstan,Rinkeby and TestNet are Working and How the Smart Contract Deploy on it. 
+## Step to Learn How Live Blockchain Like BSC,Ropstan,Rinkeby and TestNet are Working and How the Smart Contract Deploy on it. 
 These are Quick Blogs Which Might give a Quick Review
   
   Blogs -Which gave you a Quick Review:
@@ -34,7 +34,7 @@ These are Quick Blogs Which Might give a Quick Review
 
 
   
-4- Learn About the Event in a Smart Contract contain of and there working.
+## Learn About the Event in a Smart Contract contain of and there working.
   
   Blogs -Which gave you a Quick Review:
   
@@ -42,13 +42,22 @@ These are Quick Blogs Which Might give a Quick Review
     
     https://www.coinclarified.com/p/3-ways-to-subscribe-to-events-with-web3-js/
 
-5-Learn About ERC-721 which is Standard Non-Fungible owner Token 
+## Learn About ERC-721 which is Standard Non-Fungible owner Token 
 
     Docs : https://docs.openzeppelin.com/contracts/2.x/api/token/erc721
 
 ### Centralize a decentralize app
 
-@octocat :+1: This PR looks great - it's ready to merge! :shipit:
+<!--@octocat :+1: This PR looks great - it's ready to merge! :shipit:-->
+
+Like we’ve just seen, the end users will need Metamask to perform writing actions on the blockchain but reading is free.
+
+So one solution is to centralize a decentralized application (crazy talk, I know) that will read and save your smart contract data into a database. You’ll get the data (slowly) from the blockchain to serve it (quickly) to your users through your scaled API.
+
+The benefits of using a Smart contracts is that it can emit event, like: emit Pokemon Transfer({ from: 0XO67465, to: 0x43546}) or emit Pokemon Birth({name: Nidoran }).
+So when you receive a Birth event (means someone called the createPokemon() function), you can add a new Pokemon to your database to better serve your users.
+And when you receive a Transfert event, (means someone called the buy() function) you can update the owner of the given Pokemon in your database. And you can listen to this events with web3.js !
+
 
 ![Server Architecture](https://user-images.githubusercontent.com/31464210/150289551-b6f2e60d-81b3-4b26-babf-62b045b3e37a.png)
 
