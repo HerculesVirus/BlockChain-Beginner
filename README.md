@@ -63,6 +63,10 @@ And when you receive a `Transfert` event, (means someone called the `buy()` func
 
 ![GitHub Light](https://user-images.githubusercontent.com/31464210/150289551-b6f2e60d-81b3-4b26-babf-62b045b3e37a.png)
 
+To do that you will need a dedicated server to listen to your smart contract.
+
+It can be a CRON job, hosted on a google cloud function, an AWS lambda or even your own server, coded in Node.js, Go or Python, it’s up to you.
+
 ### Server Architecture
 
 Now that you centralized your application, you can serve your dapp data to your users more quickly with an API. Your database is like a mirror of your smart contract.
