@@ -65,6 +65,7 @@ And when you receive a `Transfert` event, (means someone called the `buy()` func
 
 ### Server Architecture
 
+Now that you centralized your application, you can serve your dapp data to your users more quickly with an API. Your database is like a mirror of your smart contract.
 
 ![another](https://user-images.githubusercontent.com/31464210/150289482-e8bf737a-0b3f-4dcf-8ec7-88774c82c861.png)
 
