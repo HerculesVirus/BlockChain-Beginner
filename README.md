@@ -94,6 +94,11 @@ $ truffle migrate --reset
 $ truffle develop
 
 ```
+### For Running Test Cases on Truffle:
+
+> $ truffle test
+
+
 ## After Creating a new App Directory Strcuture is look like that :
 
 <img width="196" alt="5-directory" src="https://user-images.githubusercontent.com/31464210/150293875-49152989-5a6e-4fed-9dca-c1e221069484.png">
